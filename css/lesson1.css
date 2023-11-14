@@ -1,0 +1,25 @@
+h2{
+    color: #ce822c;
+    border-bottom: 1px dashed #ce822c;  
+  }
+  body{
+      background-image:url(https://tse1.mm.bing.net/th?id=OIP.LOELGvGYrH1hxweJzCepbAHaEK&pid=Api&rs=1&c=1&qlt=95&w=190&h=106);
+      background-attachment:fixed;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      color: white;
+      margin:50px ;
+      opacity: 70%;
+  }
+  #p_id{
+      background-color: #ad132a;
+  }
+  .gurusclass{
+      font-style: italic;
+  }
+  ol,ul{
+    font-style: italic;
+  }
+  table{
+    background-color: #da132c;
+  }
