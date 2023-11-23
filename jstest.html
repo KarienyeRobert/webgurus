@@ -7,12 +7,59 @@
 </head>
 <body>
     <script >
-        var num1 =parseInt( prompt('Enter num1:'));
-        var num2 = parseInt(prompt('Enter num2'));
-        var sum =num1 + num2;
+        //var num1 =parseInt( prompt('Enter num1:'));
+       // var num2 = parseInt(prompt('Enter num2'));
+       // var sum =num1 + num2;
        //console.log("The Sum of "+num1+"and" +num2+ "is" +sum);
-      document.writeln("The Sum of " + num1 +" and" + num2 +  " is" + sum);
+      //document.writeln("The Sum of " + num1 +" and" + num2 +  " is" + sum);
       //alert("The Sum of "+num1+"and" +num2+ "is" +sum);
+
+
+      //CONDITIONAL STATEMENTS
+
+
+
+     // var age= parseInt(prompt('Enter the age:'));
+     // if(age>0 && age<18){
+      //  document.writeln('The person of '+age+ ' years is a child');
+      //}else if(age>=18 && age<=150){
+       // document.writeln('The person of '+age+ ' years is an adult');
+      //}else{
+       // document.writeln('Invalid age!!!');
+     // }
+
+
+     //LOOPING STATEMENTS
+//INCREMENT
+
+     //var myName=prompt('Enter your Name:');
+     //var i=1;
+     //while(i<=100){
+      //  document.writeln(i+ '.'+ myName );
+      //  i++;
+     //}
+
+//DECREMENT
+
+var start = parseInt(prompt('Enter the starting point:'));
+var end = parseInt(prompt('Enter the ending point:'));
+
+if (start < end) {
+    // increment
+    while (start < end) {
+        document.writeln(start);
+        start++;
+    }
+} else if (start >= end) {
+    // decrement
+    while (start >= end) {
+        document.writeln(start);
+        start--;
+    }
+}
+
+    
+
     </script>
 </body>
 </html>
